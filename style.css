@@ -316,3 +316,18 @@ a {
 .services-list-item > p{
     color: rgba(255,255,255,.75);
 }
+
+.gallery-section{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.gallery-item-img{
+    width: 100%;
+}
+
+.gallery-list{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
